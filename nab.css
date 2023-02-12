@@ -2,6 +2,7 @@
 body{
    
         user-select: none;
+        overflow-x: hidden;
 }
 .navbar-brand{
     font-weight: bolder;
@@ -105,4 +106,17 @@ body{
  }
  .footer-content{
     padding-top: 18px;
+ }
+
+ /*SCROLL-BAR*/
+
+ ::-webkit-scrollbar{
+    width: 11px;
+ }
+ ::-webkit-scrollbar-track{
+    background: #e4edfa;
+ }
+ ::-webkit-scrollbar-thumb{
+    background: linear-gradient(#e9b06e, #b49b69);
+    border-radius: 10px;
  }
