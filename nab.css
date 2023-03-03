@@ -4,6 +4,7 @@ body{
         user-select: none;
         overflow-x: hidden;
         scroll-snap-type: y;
+        scroll-behaviour:smooth;
 }
 .navbar-brand{
     font-weight: bolder;
